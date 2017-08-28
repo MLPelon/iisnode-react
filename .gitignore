@@ -1,0 +1,23 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+
+build
+iisnode
+public/media
+public/bundle*
+public/*hot-update*
+README.md
+readme.txt
+
+#include changed files in node_modules
+node_modules/**
+!node_modules/webpack-dev-middleware
+!node_modules/react-scripts
+node_modules/webpack-dev-middleware/**
+node_modules/react-scripts/**
+!node_modules/webpack-dev-middleware/lib
+!node_modules/react-scripts/config
+node_modules/webpack-dev-middleware/lib/**
+node_modules/react-scripts/config/**
+!node_modules/webpack-dev-middleware/lib/Shared.js
+!node_modules/react-scripts/config/paths.js
